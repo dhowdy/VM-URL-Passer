@@ -15,7 +15,7 @@ print "connected to the server\n";
 
 # data to send to a server
 my $req = "$ARGV[0]";
-my $pass = "0o897348972394872394";
+my $pass = "myweakasspassword";
 my $data = "$pass\~\~$req";
 my $size = $socket->send($data);
 #print "sent data of length $size\n";
